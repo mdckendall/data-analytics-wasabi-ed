@@ -36,13 +36,13 @@ class Main {
 			System.out.println("Press 5 to quit.");
 			userInput = scanner.nextInt();
 			if(userInput == 1){
-				System.out.println("You will make A LOT of money.");
+				System.out.println("$98,345 average salary in South Florida!");
 			}else if(userInput == 2){
-				System.out.println("It's a job that makes A LOT of money.");
+				System.out.println("US News - 100 best Jobs!");
 			}else if(userInput ==3){
-				System.out.println("Because this job makes A LOT of money, it is in very high demand.");
+				System.out.println("Top 10 Forbes In-Demand Jobs!");
 			}else if(userInput == 4){
-				System.out.println("Current Students: ");
+				System.out.println("Current Students:");
 				for(String s : arrayList){
 					System.out.println(s);
 				}
